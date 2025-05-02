@@ -23,7 +23,7 @@ targets:
     workspace:
       host: https://adb-297085293388204.4.azuredatabricks.net
       # We explicitly deploy to /Workspace/Users/admin@mngenvmcap290089.onmicrosoft.com to make sure we only have a single copy.
-      root_path: /Workspace/Users/admin@mngenvmcap290089.onmicrosoft.com/.bundle/${bundle.name}/${bundle.target}
+      root_path: /Workspace/Shared/${bundle.name}/${bundle.target}
     permissions:
       - user_name: admin@mngenvmcap290089.onmicrosoft.com
         level: CAN_MANAGE
